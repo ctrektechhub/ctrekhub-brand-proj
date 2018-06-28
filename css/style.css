@@ -464,6 +464,39 @@ ul {
   }
 }
 
+.social-net h2 {
+  padding-bottom: 15px;
+  padding-top: 40px;
+}
+
+.social-net ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-net .fb-icon,
+.social-net .twitter-icon,
+.social-net .instagram-icon {
+  font-size: 25px;
+}
+
+.social-net .fb-icon {
+    color: #5d8aa8;
+}
+
+.social-net .twitter-icon {
+  color: #89cff0;
+}
+
+.social-net .instagram-icon {
+  color: #9f8170;
+}
+
+.social-net .fb-icon:hover,
+.social-net .twitter-icon:hover,
+.social-net .instagram-icon:hover {
+    color: var(--white);
+}
 
 .footer-bottom {
   text-align: center;
