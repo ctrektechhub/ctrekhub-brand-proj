@@ -238,7 +238,7 @@ overflow: hidden!important;
   color: #000;
 }
 
-#prog img{
+.prog img{
   height: 100px;
   width: 100px;
   padding: 15px;
