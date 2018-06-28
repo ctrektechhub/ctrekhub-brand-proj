@@ -276,6 +276,13 @@ overflow: hidden;
   height: 225px;
 }
 
+#sec-events .card-btn {
+  color: var(--white);
+  background-color: var(--orange);
+  border-radius: 30px;
+  padding: 5px 0;
+}
+
 #sec-service {
   text-align: center;
 }
