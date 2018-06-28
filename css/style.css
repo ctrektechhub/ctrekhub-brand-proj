@@ -1,3 +1,13 @@
+/* Variable Declarations */
+
+:root {
+  --box-shadow: 12px 2px 26px 17px rgba(0,0,0,0.21);
+  --orange: #FF5302;
+  --white: #fff;
+}
+
+/* Style Rule-sets  */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -9,12 +19,10 @@ body {
   width: 100%;
 }
 
-
-
 .btn.btn-link.active:hover, .btn.btn-link {
-  border: 1px solid #FF5302;
+  border: 1px solid var(--orange);
   border-radius: 100px;
-  color: #FF5302;
+  color: var(--orange);
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 2px;
@@ -27,24 +35,25 @@ body {
 }
 
 .btn.btn-link.active, .btn.btn-link:hover, .price-table.active .btn.btn-link {
-  background-color: #FF5302;
+  background-color: var(--orange);
   box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, 0.2);
-  color: #ffffff;
+  color: var(--white);
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
 
 header {
   background: url('/img/homepage.png')no-repeat fixed;
-  color: #fff;
+  color: var(--white);
   height: 100vh;
   width: 100%;
   background-size: cover;
   overflow: hidden;
+  box-shadow: var(--box-shadow);
 }
 
 .bg-overlay {
-  background: #FF5302;
+  background: var(--orange);
   width: 100%;
   height: 100vh;
   opacity: .5;
@@ -56,10 +65,12 @@ header {
   padding: 15px 60px !important;
 }
 
+.scrolled {
+  background-color: darkgray;
+}
+
 #showcase {
   overflow: hidden;
-
-  /*transform: skew(0deg, 10deg);*/
   font-family: arial;
 }
 
@@ -71,13 +82,13 @@ header a {
 
 header a:hover {
   font-weight: 700;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid var(--white);
   transition: border-bottom 1s ease-in;
 }
 
 header #con-highlight {
-  background: #fff;
-  color: #FF5302;
+  background: var(--white);
+  color: var(--orange);
   border-radius: 30px;
   padding: 10px;
   margin-left: 30px;
@@ -99,8 +110,8 @@ header #con-highlight:hover {
 .text-slide {
 padding-top: 50px;
 overflow: hidden!important;
-
 }
+
 .item-1, .item-2, .item-3 {
   position: absolute;
   display: block;
@@ -174,8 +185,6 @@ overflow: hidden!important;
 @media(max-width:700px){
   .item-1, .item-2, .item-3{
     font-size: 35px;
-
-
   }
 
   .text-slide .container{
@@ -189,21 +198,18 @@ overflow: hidden!important;
  background-size:cover;
  background-position:center;
  background-attachment: fixed;
-
 }
 
 #about-us{
   text-align: center;
 }
 
-
-
 #core-values{
   text-align:center;
-  background-color: #FF5302;
-  color: #fff;
+  background-color: var(--orange);
+  color: var(--white);
   overflow: hidden;
-
+  box-shadow: var(--box-shadow);
 }
 
 #value-row{
@@ -227,43 +233,36 @@ overflow: hidden!important;
 #side-img{
   background: url('/img/homepage.png') no-repeat;
   background-size: cover;
-
-
 }
 
 #program-sec{
   text-align: center;
-  color: #fff;
-  background: url('/img/homepage.png')no-repeat fixed;
-  background-size: cover;
-
+  color: #000;
 }
 
-#prog img{
+.prog img{
   height: 100px;
   width: 100px;
   padding: 15px;
 }
 
 .prog-overlay{
-  background: #FF5302;
+  background: var(--orange);
 overflow: hidden;
   height: 100vh;
   opacity: .5;
-
-
 }
-
 
 #sec-quotes {
   height: 200px;
   text-align: center;
-  background-color: #FF5302;
-  color: #fff;
+  background-color: var(--orange);
+  color: var(--white);
   font-style: italic;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: var(--box-shadow);
 }
 
 #sec-events {
@@ -288,7 +287,7 @@ overflow: hidden;
 .border-icon {
   border: 1px solid;
   border-radius: 50%;
-  color: #FF5302;
+  color: var(--orange);
   font-size: 20px;
   height: 50px;
   line-height: 2.7;
@@ -299,8 +298,8 @@ overflow: hidden;
 }
 
 .active .single-feature .border-icon, .single-feature:hover .border-icon {
-  background-color: #FF5302;
-  color: #ffffff;
+  background-color: var(--orange);
+  color: var(--white);
 }
 
 .ico-position-right {
@@ -318,14 +317,15 @@ overflow: hidden;
 
 #sec-career {
   text-align: center;
-  background-color: #FF5302;
-  color: #fff;
+  background-color: var(--orange);
+  color: var(--white);
   padding: 20px;
+  box-shadow: var(--box-shadow);
 }
 
 #sec-career .btn {
-  background-color: #fff;
-  color: #FF5302;
+  background-color: var(--white);
+  color: var(--orange);
   padding: 10px;
   font-size: 25px;
   border-radius: 30px;
@@ -378,7 +378,7 @@ ul {
 #contact h1 {
   font-size: 30px;
   margin: 0;
-  color: #fff;
+  color: var(--white);
 }
 
 .brand {
@@ -386,7 +386,7 @@ ul {
 }
 
 .brand span {
-  color: #fff;
+  color: var(--white);
 }
 
 .wrapper {
@@ -399,7 +399,7 @@ ul {
 
 .company-info {
   background: #4e5254;
-  color: #fff;
+  color: var(--white);
 }
 
 .company-info h3, .company-info ul {
@@ -408,7 +408,7 @@ ul {
 
 .contact {
   background: #545454;
-  color: #fff;
+  color: var(--white);
 }
 
 .contact form {
@@ -461,11 +461,44 @@ ul {
   }
 }
 
+.social-net h2 {
+  padding-bottom: 15px;
+  padding-top: 40px;
+}
+
+.social-net ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-net .fb-icon,
+.social-net .twitter-icon,
+.social-net .instagram-icon {
+  font-size: 25px;
+}
+
+.social-net .fb-icon {
+    color: #5d8aa8;
+}
+
+.social-net .twitter-icon {
+  color: #89cff0;
+}
+
+.social-net .instagram-icon {
+  color: #9f8170;
+}
+
+.social-net .fb-icon:hover,
+.social-net .twitter-icon:hover,
+.social-net .instagram-icon:hover {
+    color: var(--white);
+}
 
 .footer-bottom {
   text-align: center;
   height: 100%;
-  color: #fff;
+  color: var(--white);
   background-color: #383d41;
   padding: 15px;
 }
