@@ -66,6 +66,8 @@ header {
 #showcase {
   overflow: hidden;
   font-family: arial;
+  position: fixed;
+  right: 0;
 }
 
 header a {
