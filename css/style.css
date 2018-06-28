@@ -17,8 +17,6 @@ body {
   width: 100%;
 }
 
-
-
 .btn.btn-link.active:hover, .btn.btn-link {
   border: 1px solid var(--orange);
   border-radius: 100px;
@@ -106,8 +104,8 @@ header #con-highlight:hover {
 .text-slide {
 padding-top: 50px;
 overflow: hidden!important;
-
 }
+
 .item-1, .item-2, .item-3 {
   position: absolute;
   display: block;
@@ -181,8 +179,6 @@ overflow: hidden!important;
 @media(max-width:700px){
   .item-1, .item-2, .item-3{
     font-size: 35px;
-
-
   }
 
   .text-slide .container{
@@ -196,14 +192,11 @@ overflow: hidden!important;
  background-size:cover;
  background-position:center;
  background-attachment: fixed;
-
 }
 
 #about-us{
   text-align: center;
 }
-
-
 
 #core-values{
   text-align:center;
@@ -234,8 +227,6 @@ overflow: hidden!important;
 #side-img{
   background: url('/img/homepage.png') no-repeat;
   background-size: cover;
-
-
 }
 
 #program-sec{
@@ -254,10 +245,7 @@ overflow: hidden!important;
 overflow: hidden;
   height: 100vh;
   opacity: .5;
-
-
 }
-
 
 #sec-quotes {
   height: 200px;
