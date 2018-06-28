@@ -20,9 +20,9 @@ body {
 
 
 .btn.btn-link.active:hover, .btn.btn-link {
-  border: 1px solid #FF5302;
+  border: 1px solid var(--orange);
   border-radius: 100px;
-  color: #FF5302;
+  color: var(--orange);
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 2px;
@@ -35,16 +35,16 @@ body {
 }
 
 .btn.btn-link.active, .btn.btn-link:hover, .price-table.active .btn.btn-link {
-  background-color: #FF5302;
+  background-color: var(--orange);
   box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, 0.2);
-  color: #ffffff;
+  color: var(--white);
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
 
 header {
   background: url('/img/homepage.png')no-repeat fixed;
-  color: #fff;
+  color: var(--white);
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -52,7 +52,7 @@ header {
 }
 
 .bg-overlay {
-  background: #FF5302;
+  background: var(--orange);
   width: 100%;
   height: 100vh;
   opacity: .5;
@@ -77,13 +77,13 @@ header a {
 
 header a:hover {
   font-weight: 700;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid var(--white);
   transition: border-bottom 1s ease-in;
 }
 
 header #con-highlight {
-  background: #fff;
-  color: #FF5302;
+  background: var(--white);
+  color: var(--orange);
   border-radius: 30px;
   padding: 10px;
   margin-left: 30px;
@@ -206,8 +206,8 @@ overflow: hidden!important;
 
 #core-values{
   text-align:center;
-  background-color: #FF5302;
-  color: #fff;
+  background-color: var(--orange);
+  color: var(--white);
   overflow: hidden;
 
 }
@@ -239,10 +239,7 @@ overflow: hidden!important;
 
 #program-sec{
   text-align: center;
-  color: #fff;
-  background: url('/img/homepage.png')no-repeat fixed;
-  background-size: cover;
-
+  color: #000;
 }
 
 #prog img{
@@ -252,7 +249,7 @@ overflow: hidden!important;
 }
 
 .prog-overlay{
-  background: #FF5302;
+  background: var(--orange);
 overflow: hidden;
   height: 100vh;
   opacity: .5;
@@ -264,8 +261,8 @@ overflow: hidden;
 #sec-quotes {
   height: 200px;
   text-align: center;
-  background-color: #FF5302;
-  color: #fff;
+  background-color: var(--orange);
+  color: var(--white);
   font-style: italic;
   display: flex;
   align-items: center;
@@ -294,7 +291,7 @@ overflow: hidden;
 .border-icon {
   border: 1px solid;
   border-radius: 50%;
-  color: #FF5302;
+  color: var(--orange);
   font-size: 20px;
   height: 50px;
   line-height: 2.7;
@@ -305,8 +302,8 @@ overflow: hidden;
 }
 
 .active .single-feature .border-icon, .single-feature:hover .border-icon {
-  background-color: #FF5302;
-  color: #ffffff;
+  background-color: var(--orange);
+  color: var(--white);
 }
 
 .ico-position-right {
@@ -324,14 +321,14 @@ overflow: hidden;
 
 #sec-career {
   text-align: center;
-  background-color: #FF5302;
-  color: #fff;
+  background-color: var(--orange);
+  color: var(--white);
   padding: 20px;
 }
 
 #sec-career .btn {
-  background-color: #fff;
-  color: #FF5302;
+  background-color: var(--white);
+  color: var(--orange);
   padding: 10px;
   font-size: 25px;
   border-radius: 30px;
@@ -384,7 +381,7 @@ ul {
 #contact h1 {
   font-size: 30px;
   margin: 0;
-  color: #fff;
+  color: var(--white);
 }
 
 .brand {
@@ -392,7 +389,7 @@ ul {
 }
 
 .brand span {
-  color: #fff;
+  color: var(--white);
 }
 
 .wrapper {
@@ -405,7 +402,7 @@ ul {
 
 .company-info {
   background: #4e5254;
-  color: #fff;
+  color: var(--white);
 }
 
 .company-info h3, .company-info ul {
@@ -414,7 +411,7 @@ ul {
 
 .contact {
   background: #545454;
-  color: #fff;
+  color: var(--white);
 }
 
 .contact form {
@@ -471,7 +468,7 @@ ul {
 .footer-bottom {
   text-align: center;
   height: 100%;
-  color: #fff;
+  color: var(--white);
   background-color: #383d41;
   padding: 15px;
 }
