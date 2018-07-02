@@ -107,9 +107,24 @@ header #con-highlight:hover {
   overflow: hidden;
 }
 
+@keyframes slide-right {
+  from {
+    margin-left: -50%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+
+
 .text-slide {
-padding-top: 50px;
-overflow: hidden!important;
+  display: block;
+  width:100%;
+  padding-top: 50px;
+  overflow: hidden!important;
 }
 
 .item-1, .item-2, .item-3 {
@@ -195,9 +210,9 @@ overflow: hidden!important;
 #particles-js{
   z-index: 1;
   height: 100vh;
- background-size:cover;
- background-position:center;
- background-attachment: fixed;
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
 }
 
 #about-us{
