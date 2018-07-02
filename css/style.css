@@ -330,6 +330,35 @@ overflow: hidden;
   color: #6c757d;
 }
 
+/* Newsletter */
+
+#newsletter button[type=submit] {
+  color: var(--white);
+  background-color: var(--orange);
+  font-size: 25px;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#newsletter button[type=submit]:hover {
+  background-color: rgb(254, 165, 0);
+  transition: background-color 1s ease-out;
+}
+
+.subscription-form .form-control {
+    border-radius: 100px 0 0 100px !important;
+    padding: 0 20px;
+    min-height: 45px;
+    font-size: 14px;
+    text-decoration: none;
+    /* border: none; */
+    outline: none;
+    color: inherit;
+}
+
+/* Career */
+
 #sec-career {
   text-align: center;
   background-color: var(--orange);
