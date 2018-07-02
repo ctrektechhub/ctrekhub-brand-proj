@@ -6,7 +6,7 @@
   --white: #fff;
 }
 
-/* Style Rule-sets  */
+/* General Styling */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +19,10 @@ body {
   width: 100%;
 }
 
-.btn.btn-link.active:hover, .btn.btn-link {
+/* Buttons */
+
+.btn .btn-link .active:hover,
+.btn .btn-link {
   border: 1px solid var(--orange);
   border-radius: 100px;
   color: var(--orange);
@@ -34,13 +37,17 @@ body {
   transform: translateY(0px);
 }
 
-.btn.btn-link.active, .btn.btn-link:hover, .price-table.active .btn.btn-link {
+.btn .btn-link .active,
+.btn .btn-link:hover,
+.price-table .active .btn .btn-link {
   background-color: var(--orange);
   box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, 0.2);
   color: var(--white);
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
+
+/* Header */
 
 header {
   background: url('/img/homepage.png')no-repeat fixed;
@@ -118,7 +125,6 @@ header #con-highlight:hover {
     width: 100%;
   }
 }
-
 
 .text-slide {
   display: block;
@@ -215,9 +221,13 @@ header #con-highlight:hover {
   background-attachment: fixed;
 }
 
+/* About Us */
+
 #about-us{
   text-align: center;
 }
+
+/* Core Values */
 
 #core-values{
   text-align:center;
@@ -250,6 +260,8 @@ header #con-highlight:hover {
   background-size: cover;
 }
 
+/* Programs */
+
 #program-sec{
   text-align: center;
   color: #000;
@@ -268,6 +280,8 @@ overflow: hidden;
   opacity: .5;
 }
 
+/* Quotes */
+
 #sec-quotes {
   height: 200px;
   text-align: center;
@@ -279,6 +293,8 @@ overflow: hidden;
   justify-content: center;
   box-shadow: var(--box-shadow);
 }
+
+/* Events */
 
 #sec-events {
   text-align: center;
@@ -294,6 +310,8 @@ overflow: hidden;
   width: 225px;
   height: 225px;
 }
+
+/* Services */
 
 #sec-service {
   text-align: center;
@@ -312,7 +330,8 @@ overflow: hidden;
   transition: 0.3s;
 }
 
-.active .single-feature .border-icon, .single-feature:hover .border-icon {
+.active .single-feature .border-icon,
+.single-feature:hover .border-icon {
   background-color: var(--orange);
   color: var(--white);
 }
@@ -375,6 +394,8 @@ overflow: hidden;
   border-radius: 30px;
 }
 
+/* Portfolio */
+
 #sec-portfolio {
   text-align: center;
   padding: 30px;
@@ -392,10 +413,14 @@ overflow: hidden;
   height: 180px;
 }
 
+/* Blog */
+
 #blog {
   text-align: center;
   padding: 15px;
 }
+
+/* Footer */
 
 #contact {
   background-color: #383d41;
@@ -473,7 +498,10 @@ ul {
   grid-column: 1/3;
 }
 
-.contact form button, .contact form input, .contact form textarea, .contact form select {
+.contact form button,
+.contact form input,
+.contact form textarea,
+.contact form select {
   width: 100%;
   padding: 1em;
   border: 1px solid #90A4AE;
@@ -485,7 +513,8 @@ ul {
   text-transform: uppercase;
 }
 
-.contact form button:hover, .contact form button:focus {
+.contact form button:hover,
+.contact form button:focus {
   background: #90A4AE;
   color: #efff;
   outline: 0;
@@ -546,3 +575,4 @@ ul {
   background-color: #383d41;
   padding: 15px;
 }
+
